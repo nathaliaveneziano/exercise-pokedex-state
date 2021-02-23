@@ -2,6 +2,10 @@ import React from 'react';
 import Pokemon from './Pokemon';
 
 class Pokedex extends React.Component {
+    constructor(props) {
+        super(props)
+    }
+
     render() {
         return (
             <div className="pokedex">
